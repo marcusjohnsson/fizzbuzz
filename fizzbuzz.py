@@ -7,9 +7,12 @@ nums = list(range(1,101))
 for num in nums:
     str = ""
     if num % 3 == 0: 
-        str += "Fizz"
+         if num == 42:
+            str += "The answer to life, universe and everything"
+         else:
+            str += "Fizz"
     if num % 5 == 0:
-        str += "Buzz"
+            str += "Buzz"
     if not str == "":
         print(f"{str}!")
     else:
