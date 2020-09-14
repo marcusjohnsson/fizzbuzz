@@ -12,4 +12,3 @@ for num in nums:
         print(f"{str}!")
     else:
         print(num)
-
